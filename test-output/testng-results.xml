@@ -1,25 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-16T21:45:41 IST" name="Default suite" finished-at="2026-04-16T21:45:47 IST" duration-ms="6327">
+  <suite started-at="2026-04-17T16:23:55 IST" name="Default suite" finished-at="2026-04-17T16:24:14 IST" duration-ms="18908">
     <groups>
     </groups>
-    <test started-at="2026-04-16T21:45:41 IST" name="Default test" finished-at="2026-04-16T21:45:47 IST" duration-ms="6327">
-      <class name="com.Test.NewTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.Test.NewTest@38425407]" started-at="2026-04-16T21:45:41 IST" name="beforeTest" finished-at="2026-04-16T21:45:46 IST" duration-ms="5728" status="PASS">
+    <test started-at="2026-04-17T16:23:55 IST" name="Default test" finished-at="2026-04-17T16:24:14 IST" duration-ms="18908">
+      <class name="com.Test.SoftAssertDemo">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.SoftAssertDemo@7b2bbc3]" started-at="2026-04-17T16:23:55 IST" name="beforeMethod" finished-at="2026-04-17T16:23:59 IST" duration-ms="3811" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="LoginValidation()[pri:0, instance:com.Test.NewTest@38425407]" started-at="2026-04-16T21:45:46 IST" name="LoginValidation" finished-at="2026-04-16T21:45:47 IST" duration-ms="487" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="InvalidLogin_Password()[pri:0, instance:com.Test.SoftAssertDemo@7b2bbc3]" started-at="2026-04-17T16:23:59 IST" name="InvalidLogin_Password" finished-at="2026-04-17T16:24:01 IST" duration-ms="2361" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Incorrect Password did not expect [Wrong password.] but found [Wrong password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Incorrect Password did not expect [Wrong password.] but found [Wrong password.]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at com.Test.SoftAssertDemo.InvalidLogin_Password(SoftAssertDemo.java:82)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin_Password -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.SoftAssertDemo@7b2bbc3]" started-at="2026-04-17T16:24:01 IST" name="afterMethod" finished-at="2026-04-17T16:24:01 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.SoftAssertDemo@7b2bbc3]" started-at="2026-04-17T16:24:01 IST" name="beforeMethod" finished-at="2026-04-17T16:24:04 IST" duration-ms="2724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="InvalidLogin_UserName()[pri:0, instance:com.Test.SoftAssertDemo@7b2bbc3]" started-at="2026-04-17T16:24:04 IST" name="InvalidLogin_UserName" finished-at="2026-04-17T16:24:07 IST" duration-ms="2711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin_UserName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.SoftAssertDemo@7b2bbc3]" started-at="2026-04-17T16:24:07 IST" name="afterMethod" finished-at="2026-04-17T16:24:07 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.SoftAssertDemo@7b2bbc3]" started-at="2026-04-17T16:24:07 IST" name="beforeMethod" finished-at="2026-04-17T16:24:10 IST" duration-ms="2749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginValidation()[pri:0, instance:com.Test.SoftAssertDemo@7b2bbc3]" started-at="2026-04-17T16:24:10 IST" name="LoginValidation" finished-at="2026-04-17T16:24:13 IST" duration-ms="3537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginValidation -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Test.NewTest@38425407]" started-at="2026-04-16T21:45:47 IST" name="afterTest" finished-at="2026-04-16T21:45:47 IST" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.SoftAssertDemo@7b2bbc3]" started-at="2026-04-17T16:24:13 IST" name="afterMethod" finished-at="2026-04-17T16:24:14 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.Test.NewTest -->
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.Test.SoftAssertDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

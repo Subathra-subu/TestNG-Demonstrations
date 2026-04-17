@@ -4,17 +4,12 @@
   <test thread-count="5" name="Test">
   <groups>
   <run>
-  <include name="SmokeTest"></include>
-  <include name="RegressionTest"></include>
-  <include name="groupA"></include>
-  <include name="groupB"></include>
+    <include name="SmokeTest"></include>
+    <include name="RegressionTest"></include>
   </run>
   </groups>
     <classes>
-      <class name="com.Test.Demo"/>
       <class name="com.Test.NewTest"/>
-      <class name="com.Test.DemoForAnnotations"/>
-      <class name="com.Test.DependsOnGroup"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
