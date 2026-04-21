@@ -85,7 +85,7 @@ public class TutorialsNinjaTest {
 
 	  driver1.findElement(By.xpath("//input[@type=\"submit\"]")).click();
 	  
-	  WebElement alert = driver1.findElement(By.xpath("//div[@class=\"alert alert-danger alert-dismissible\"]"));
+	  WebElement alert = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class=\"alert alert-danger alert-dismissible\"]")));
 	  
 	  System.out.println(alert.getText());
   }
