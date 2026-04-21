@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="2" name="Test" parallel="true">
+  
+  <parameter name="browser" value="Chrome"></parameter>
+  <parameter name="Url" value="https://www.demoblaze.com/"></parameter>
+  <parameter name="v_user" value="admin"></parameter>
+  <parameter name="v_pass" value="admin"></parameter>
+  <parameter name="p_user" value="admin"></parameter>
+  <parameter name="p_pass" value="a"></parameter>
+  <parameter name="u_user" value="ad"></parameter>
+  <parameter name="u_pass" value="admin"></parameter>
+  
+    <classes>
+      <class name="com.Test.DemoBlaze"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

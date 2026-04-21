@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-20T16:16:59 IST" name="Suite" finished-at="2026-04-20T16:17:09 IST" duration-ms="10288">
+    <groups>
+    </groups>
+    <test started-at="2026-04-20T16:16:59 IST" name="Test" finished-at="2026-04-20T16:17:09 IST" duration-ms="10288">
+      <class name="com.Test.DemoBlaze">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.DemoBlaze@33d512c1]" started-at="2026-04-20T16:16:59 IST" name="beforeMethod" finished-at="2026-04-20T16:17:00 IST" duration-ms="1601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.DemoBlaze@33d512c1]" started-at="2026-04-20T16:16:59 IST" name="beforeMethod" finished-at="2026-04-20T16:17:00 IST" duration-ms="1601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="LoginValidation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.DemoBlaze@33d512c1]" started-at="2026-04-20T16:17:00 IST" name="LoginValidation" finished-at="2026-04-20T16:17:07 IST" duration-ms="7157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginValidation -->
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Test.DemoBlaze@33d512c1]" started-at="2026-04-20T16:17:00 IST" name="InvalidLogin" data-provider="testData" finished-at="2026-04-20T16:17:04 IST" duration-ms="3614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bcjrfi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.DemoBlaze@33d512c1]" started-at="2026-04-20T16:17:04 IST" name="afterMethod" finished-at="2026-04-20T16:17:04 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.DemoBlaze@33d512c1]" started-at="2026-04-20T16:17:04 IST" name="beforeMethod" finished-at="2026-04-20T16:17:05 IST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Test.DemoBlaze@33d512c1]" started-at="2026-04-20T16:17:05 IST" name="InvalidLogin" data-provider="testData" finished-at="2026-04-20T16:17:09 IST" duration-ms="3866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.DemoBlaze@33d512c1]" started-at="2026-04-20T16:17:07 IST" name="afterMethod" finished-at="2026-04-20T16:17:08 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.DemoBlaze@33d512c1]" started-at="2026-04-20T16:17:09 IST" name="afterMethod" finished-at="2026-04-20T16:17:09 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.Test.DemoBlaze -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

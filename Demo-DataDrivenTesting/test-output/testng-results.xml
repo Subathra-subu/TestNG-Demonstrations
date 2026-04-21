@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-21T19:59:44 IST" name="Suite" finished-at="2026-04-21T19:59:57 IST" duration-ms="12671">
+    <groups>
+    </groups>
+    <test started-at="2026-04-21T19:59:44 IST" name="Test" finished-at="2026-04-21T19:59:57 IST" duration-ms="12671">
+      <class name="com.Test.TutorialsNinja">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.TutorialsNinja@33d512c1]" started-at="2026-04-21T19:59:44 IST" name="beforeMethod" finished-at="2026-04-21T19:59:47 IST" duration-ms="2932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.TutorialsNinja@33d512c1]" started-at="2026-04-21T19:59:46 IST" name="beforeMethod" finished-at="2026-04-21T19:59:49 IST" duration-ms="3357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.TutorialsNinja@33d512c1]" started-at="2026-04-21T19:59:46 IST" name="beforeMethod" finished-at="2026-04-21T19:59:49 IST" duration-ms="3365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.TutorialsNinja@33d512c1]" started-at="2026-04-21T19:59:46 IST" name="beforeMethod" finished-at="2026-04-21T19:59:49 IST" duration-ms="3308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="Search(java.lang.String,java.lang.String)[pri:0, instance:com.Test.TutorialsNinja@33d512c1]" started-at="2026-04-21T19:59:47 IST" name="Search" finished-at="2026-04-21T19:59:53 IST" duration-ms="6310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://tutorialsninja.com/demo/index.php?route=common/home]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Test.TutorialsNinja@33d512c1]" started-at="2026-04-21T19:59:49 IST" name="invalidLogin" data-provider="InValidLoginData" finished-at="2026-04-21T19:59:56 IST" duration-ms="6902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[charu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfbe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Test.TutorialsNinja@33d512c1]" started-at="2026-04-21T19:59:49 IST" name="invalidLogin" data-provider="InValidLoginData" finished-at="2026-04-21T19:59:55 IST" duration-ms="5939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[charu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Test.TutorialsNinja@33d512c1]" started-at="2026-04-21T19:59:49 IST" name="validLogin" data-provider="ValidLoginData" finished-at="2026-04-21T19:59:56 IST" duration-ms="7046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[charu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[charu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.TutorialsNinja@33d512c1]" started-at="2026-04-21T19:59:53 IST" name="afterMethod" finished-at="2026-04-21T19:59:55 IST" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.TutorialsNinja@33d512c1]" started-at="2026-04-21T19:59:55 IST" name="afterMethod" finished-at="2026-04-21T19:59:56 IST" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.TutorialsNinja@33d512c1]" started-at="2026-04-21T19:59:56 IST" name="afterMethod" finished-at="2026-04-21T19:59:57 IST" duration-ms="415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.TutorialsNinja@33d512c1]" started-at="2026-04-21T19:59:56 IST" name="afterMethod" finished-at="2026-04-21T19:59:57 IST" duration-ms="368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.Test.TutorialsNinja -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
