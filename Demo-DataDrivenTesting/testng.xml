@@ -7,7 +7,7 @@
   <parameter name="keyWord" value="mac"></parameter>
   
     <classes>
-      <class name="com.Test.TutorialsNinja"/>
+      <class name="com.Test.TutorialsNinjaTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
