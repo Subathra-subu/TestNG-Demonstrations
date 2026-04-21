@@ -18,7 +18,7 @@ import org.testng.annotations.Test;
 
 import com.Utilities.TestData;
 
-public class TutorialsNinja {
+public class TutorialsNinjaTest {
 
   private static final ThreadLocal <WebDriver> driver=new ThreadLocal <WebDriver>();
   
