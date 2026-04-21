@@ -73,7 +73,7 @@ public class TutorialsNinjaTest {
 	  
 	  driver1.findElement(By.xpath("//span[@class=\"caret\"]")).click();
 	  
-	  WebDriverWait wait = new WebDriverWait(driver1,Duration.ofSeconds(5));
+	  WebDriverWait wait = new WebDriverWait(driver1,Duration.ofSeconds(10));
 	  
 	  WebElement loginLink = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[text()=\"Login\"]")));
 	  
