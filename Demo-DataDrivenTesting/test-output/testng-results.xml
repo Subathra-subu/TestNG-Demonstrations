@@ -1,36 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-22T06:53:57 IST" name="Suite" finished-at="2026-04-22T06:54:14 IST" duration-ms="17794">
+  <suite started-at="2026-04-22T16:27:02 IST" name="Default suite" finished-at="2026-04-22T16:27:28 IST" duration-ms="26111">
     <groups>
     </groups>
-    <test started-at="2026-04-22T06:53:57 IST" name="Test" finished-at="2026-04-22T06:54:14 IST" duration-ms="17794">
+    <test started-at="2026-04-22T16:27:02 IST" name="Default test" finished-at="2026-04-22T16:27:28 IST" duration-ms="26111">
       <class name="com.Test.TutorialsNinjaTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@33d512c1]" started-at="2026-04-22T06:53:57 IST" name="beforeMethod" finished-at="2026-04-22T06:54:03 IST" duration-ms="6021" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@1458ed9c]" started-at="2026-04-22T16:27:04 IST" name="beforeMethod" finished-at="2026-04-22T16:27:09 IST" duration-ms="5469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@33d512c1]" started-at="2026-04-22T06:53:59 IST" name="beforeMethod" finished-at="2026-04-22T06:54:03 IST" duration-ms="4414" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@33d512c1]" started-at="2026-04-22T06:53:59 IST" name="beforeMethod" finished-at="2026-04-22T06:54:06 IST" duration-ms="7711" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@33d512c1]" started-at="2026-04-22T06:53:59 IST" name="beforeMethod" finished-at="2026-04-22T06:54:07 IST" duration-ms="8023" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="Search(java.lang.String,java.lang.String)[pri:0, instance:com.Test.TutorialsNinjaTest@33d512c1]" started-at="2026-04-22T06:54:03 IST" name="Search" finished-at="2026-04-22T06:54:10 IST" duration-ms="7367" status="PASS">
+        <test-method signature="SearchValid(java.lang.String)[pri:0, instance:com.Test.TutorialsNinjaTest@1458ed9c]" started-at="2026-04-22T16:27:09 IST" name="SearchValid" data-provider="SearchData" finished-at="2026-04-22T16:27:10 IST" duration-ms="772" status="PASS">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[https://tutorialsninja.com/demo/index.php?route=common/home]]>
-              </value>
-            </param>
-            <param index="1">
               <value>
                 <![CDATA[mac]]>
               </value>
@@ -38,8 +21,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Search -->
-        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Test.TutorialsNinjaTest@33d512c1]" started-at="2026-04-22T06:54:03 IST" name="invalidLogin" data-provider="InValidLoginData" finished-at="2026-04-22T06:54:13 IST" duration-ms="10271" status="PASS">
+        </test-method> <!-- SearchValid -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@1458ed9c]" started-at="2026-04-22T16:27:10 IST" name="afterMethod" finished-at="2026-04-22T16:27:10 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@1458ed9c]" started-at="2026-04-22T16:27:10 IST" name="beforeMethod" finished-at="2026-04-22T16:27:15 IST" duration-ms="4674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@1458ed9c]" started-at="2026-04-22T16:27:10 IST" name="beforeMethod" finished-at="2026-04-22T16:27:15 IST" duration-ms="4448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Test.TutorialsNinjaTest@1458ed9c]" started-at="2026-04-22T16:27:15 IST" name="invalidLogin" data-provider="InValidLoginData" finished-at="2026-04-22T16:27:17 IST" duration-ms="2489" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,7 +50,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Test.TutorialsNinjaTest@33d512c1]" started-at="2026-04-22T06:54:06 IST" name="invalidLogin" data-provider="InValidLoginData" finished-at="2026-04-22T06:54:14 IST" duration-ms="7673" status="PASS">
+        <test-method signature="invalidLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Test.TutorialsNinjaTest@1458ed9c]" started-at="2026-04-22T16:27:15 IST" name="invalidLogin" data-provider="InValidLoginData" finished-at="2026-04-22T16:27:18 IST" duration-ms="2590" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -71,7 +66,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Test.TutorialsNinjaTest@33d512c1]" started-at="2026-04-22T06:54:07 IST" name="validLogin" data-provider="ValidLoginData" finished-at="2026-04-22T06:54:14 IST" duration-ms="7472" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@1458ed9c]" started-at="2026-04-22T16:27:17 IST" name="afterMethod" finished-at="2026-04-22T16:27:18 IST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@1458ed9c]" started-at="2026-04-22T16:27:18 IST" name="afterMethod" finished-at="2026-04-22T16:27:18 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@1458ed9c]" started-at="2026-04-22T16:27:18 IST" name="beforeMethod" finished-at="2026-04-22T16:27:21 IST" duration-ms="3332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="invalidSearch(java.lang.String)[pri:0, instance:com.Test.TutorialsNinjaTest@1458ed9c]" started-at="2026-04-22T16:27:21 IST" name="invalidSearch" data-provider="InvalidSearchData" finished-at="2026-04-22T16:27:22 IST" duration-ms="641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSearch -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@1458ed9c]" started-at="2026-04-22T16:27:22 IST" name="afterMethod" finished-at="2026-04-22T16:27:22 IST" duration-ms="250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@1458ed9c]" started-at="2026-04-22T16:27:22 IST" name="beforeMethod" finished-at="2026-04-22T16:27:26 IST" duration-ms="3408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:com.Test.TutorialsNinjaTest@1458ed9c]" started-at="2026-04-22T16:27:26 IST" name="validLogin" data-provider="ValidLoginData" finished-at="2026-04-22T16:27:28 IST" duration-ms="2156" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,23 +113,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@33d512c1]" started-at="2026-04-22T06:54:10 IST" name="afterMethod" finished-at="2026-04-22T06:54:13 IST" duration-ms="2349" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@33d512c1]" started-at="2026-04-22T06:54:13 IST" name="afterMethod" finished-at="2026-04-22T06:54:14 IST" duration-ms="304" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@33d512c1]" started-at="2026-04-22T06:54:14 IST" name="afterMethod" finished-at="2026-04-22T06:54:14 IST" duration-ms="367" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@33d512c1]" started-at="2026-04-22T06:54:14 IST" name="afterMethod" finished-at="2026-04-22T06:54:14 IST" duration-ms="386" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.Test.TutorialsNinjaTest@1458ed9c]" started-at="2026-04-22T16:27:28 IST" name="afterMethod" finished-at="2026-04-22T16:27:28 IST" duration-ms="275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.Test.TutorialsNinjaTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

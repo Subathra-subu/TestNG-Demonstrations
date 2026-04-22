@@ -23,6 +23,18 @@ public class TestData {
 		return arrObj;
 	}
 	
+	@DataProvider(name="SearchData",parallel = true)
+	public Object[][] SearchDataProvider() throws IOException{
+		Object[][] arrObj = getData("src\\test\\resources\\InputFile.xlsx","Sheet3");
+		return arrObj;
+	}
+	
+	@DataProvider(name="InvalidSearchData",parallel = true)
+	public Object[][] InvalidSearchDataProvider() throws IOException{
+		Object[][] arrObj = getData("src\\test\\resources\\InputFile.xlsx","Sheet4");
+		return arrObj;
+	}
+	
 
 	private String[][] getData(String FileName, String SheetName) {
 		String[][] data = null;

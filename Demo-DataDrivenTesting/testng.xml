@@ -3,9 +3,6 @@
 <suite name="Suite">
   <test thread-count="5" name="Test" parallel="methods">
   
-  <parameter name="url" value="https://tutorialsninja.com/demo/index.php?route=common/home"></parameter>
-  <parameter name="keyWord" value="mac"></parameter>
-  
     <classes>
       <class name="com.Test.TutorialsNinjaTest"/>
     </classes>
