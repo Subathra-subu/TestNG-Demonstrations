@@ -25,9 +25,13 @@ import com.Utilities.DataProvider_Class;
 @Listeners(DemoListener.class)
 public class NewTest {
 	
-	 private static final ThreadLocal <WebDriver> driver = new ThreadLocal <WebDriver>();
+	private static final ThreadLocal <WebDriver> driver = new ThreadLocal <WebDriver>();
 	 
 	 public static Logger log = LogManager.getLogger(NewTest.class);
+	 
+	 public static WebDriver getDriver() {
+		 return driver.get();
+	 }
 	 
   
   @Test(dataProvider="data",dataProviderClass=DataProvider_Class.class)
@@ -45,7 +49,7 @@ public class NewTest {
 	  
 	  loginLink.click();
 	  
-	  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='input-email']"))).sendKeys(email);
+	  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='input-email']"))).sendKeys();
 	  
 	  driver1.findElement(By.xpath("//input[@id=\"input-password\"]")).sendKeys(password);
 

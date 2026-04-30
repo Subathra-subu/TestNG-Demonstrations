@@ -10,7 +10,7 @@
         <methods>
           <include name="afterMethod"/>
           <include name="beforeMethod"/>
-          <include name="LoginTest" invocation-numbers="1"/>
+          <include name="LoginTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- Listeners.NewTest -->
     </classes>
